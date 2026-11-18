@@ -4,7 +4,7 @@
 
 ## Полезные однострочные команды Bash
 
-- [Приёмы работы с терминалом](#terminal-tricks)
+- [Трюки работы в терминале](#terminal-tricks)
 - [Терминальные мультиплексоры](#terminal-multiplexers)
 - [Переменные](#variable)
 - [Математика](#math)
@@ -26,26 +26,28 @@
 
 ## Terminal Tricks
 
-#####  Using Ctrl keys
+#####  Использование клавиш Ctrl
 ```
-Ctrl + a : move to the beginning of line.
-Ctrl + d : if you've type something, Ctrl + d deletes the character under the cursor, else, it escapes the current shell.
-Ctrl + e : move to the end of line.
-Ctrl + k : delete all text from the cursor to the end of line.
-Ctrl + l : equivalent to clear.
-Ctrl + n : same as Down arrow.
-Ctrl + p : same as Up arrow.
-Ctrl + q : to resume output to terminal after Ctrl + s.
-Ctrl + r : begins a backward search through command history.(keep pressing Ctrl + r to move backward)
-Ctrl + s : to stop output to terminal.
-Ctrl + t : transpose the character before the cursor with the one under the cursor, press Esc + t to transposes the two words before the cursor.
-Ctrl + u : cut the line before the cursor; then Ctrl + y paste it
-Ctrl + w : cut the word before the cursor; then Ctrl + y paste it
-Ctrl + x + backspace : delete all text from the beginning of line to the cursor.
-Ctrl + x + Ctrl + e : launch editor defined by $EDITOR to input your command. Useful for multi-line commands.
-Ctrl + z : stop current running process and keep it in background. You can use `fg` to continue the process in the foreground, or `bg` to continue the process in the background.
-Ctrl + _ : undo typing.
+Ctrl + a : переместить курсор в начало строки.
+Ctrl + d : если вы уже ввели текст, удалить символ под курсором. Если строка пуста — выйти из текущей командной оболочки (shell).
+Ctrl + e : переместить курсор в конец строки.
+Ctrl + k : удалить весь текст от текущего положения курсора до конца строки.
+Ctrl + l : аналог команды clear — очистить экран терминала.
+Ctrl + n : аналог клавиши стрелки вниз (Down).
+Ctrl + p : аналог клавиши стрелки вверх (Up).
+Ctrl + q : возобновить вывод данных в терминал после нажатия Ctrl + s.
+Ctrl + r : начать поиск по истории ранее введённых команд в обратном направлении. (повторное нажатие Ctrl + r позволяет перейти к предыдущим совпадениям)
+Ctrl + s : приостановить вывод данных в терминал.
+Ctrl + t : поменять местами символ перед курсором и символ под курсором. Нажмите Esc + t, чтобы поменять местами два слова перед курсором.
+Ctrl + u : вырезать текст от начала строки до курсора. Затем Ctrl + y позволяет вставить вырезанный текст.
+Ctrl + w : вырезать слово перед курсором. Затем Ctrl + y позволяет вставить вырезанный текст.
+Ctrl + x + backspace : удалить весь текст от начала строки до текущего положения курсора.
+Ctrl + x + Ctrl + e : открыть редактор, указанный в переменной $EDITOR, для ввода команды. Полезно при работе с многострочными командами.
+Ctrl + z : приостановить выполнение текущего процесса и перевести его в фоновый режим. Команда `fg` позволяет продолжить выполнение процесса на переднем плане, а `bg` — в фоновом режиме.
+Ctrl + _ : отменить последнее действие при вводе текста (Undo).
 ```
+
+>Примечание: сочетания клавиш Ctrl + s и Ctrl + q управляют потоком вывода терминала (XON/XOFF). Если после Ctrl + s терминал перестал реагировать на вывод, нажмите Ctrl + q.
 
 ##### Change case
 ```bash
