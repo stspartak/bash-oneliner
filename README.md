@@ -1,27 +1,6 @@
 # Bash-Oneliner
-Рад, что вы здесь! Несколько лет назад я занимался биоинформатикой и был поражён короткими однокомандными инструкциями Bash, которые работают намного быстрее моих обычных скриптов. Изучение сочетаний клавиш командной строки и написание скриптов помогли мне сэкономить много времени.
-В последние годы я работаю с облачными вычислениями и продолжаю собирать здесь полезные команды. Не все из них представляют собой одну строку, но я стараюсь делать их короткими и быстрыми.
-В основном я использую Ubuntu, Amazon Linux, Red Hat, Linux Mint, macOS и CentOS. Извините, если какие-то команды не работают в вашей системе.
 
-Этот блог посвящён простым командам Bash для обработки данных и обслуживания Linux, которые я освоил на работе и при подготовке к экзамену LPIC. К сожалению, подробные источники для всех команд не указаны, но, вероятно, большинство из них найдено через поисковые системы и на Stack Overflow.
-
-Английский язык и Bash — не мои родные языки, поэтому буду благодарен за любые исправления. Если вы знаете другие полезные команды, поделитесь ими!
-
-Примечание об эпохе искусственного интеллекта: я начал вручную собирать эту шпаргалку в своём блокноте и хочу сохранить её авторский характер, не заполняя материал текстами, созданными ИИ. Каждая команда здесь — та, которой я действительно пользовался и которая мне понравилась. Если что-то из этого помогло вам сэкономить время, поставьте звезду проекту или угостите меня кофе. В любом случае спасибо, что заглянули!
-
-I am glad that you are here! I was working on bioinformatics a few years ago and was amazed by those single-word bash commands which are much faster than my dull scripts, time saved through learning command-line shortcuts and scripting. Recent years I am working on cloud computing and I keep recording those useful commands here. Not all of them is oneliner, but i put effort on making them brief and swift. I am mainly using Ubuntu, Amazon Linux, RedHat, Linux Mint, Mac and CentOS, sorry if the commands don't work on your system.
-
-This blog will focus on simple bash commands for parsing data and Linux system maintenance that i acquired from work and LPIC exam. I apologize that there are no detailed citation for all the commands, but they are probably from dear search engine and Stack Overflow.
-
-English and bash are not my first language, please correct me anytime, thank you.
-If you know other cool commands, please teach me!
-
-Here's a more stylish version of [Bash-Oneliner](https://onceupon.github.io/Bash-Oneliner/)~
-
-<a href="https://trendshift.io/repositories/11414?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-11414" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/11414/daily" alt="onceupon%2FBash-Oneliner | Trendshift" width="250" height="55"/></a>
-
->  A note in the age of AI: I started this in my notebook by hand, and I want to keep it human rather than filled with AI content. Every command here is one I actually used and loved. If any of these saved you time, feel free to drop a ⭐ star and/or [buy me a coffee](https://ko-fi.com/bonnieonceupon). Either way, thank you for stopping by. That already means a lot.
-
+Перевод [репозитория](https://github.com/onceupon/Bash-Oneliner) на Русский язык.
 
 ## Полезные однострочные команды Bash
 
